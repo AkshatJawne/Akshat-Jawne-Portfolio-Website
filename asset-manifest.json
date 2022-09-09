@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60b5f1dc.css",
+    "main.js": "/static/js/main.d6d1cae1.js",
+    "static/media/Website.png": "/static/media/Website.940939d61376d09e6a00.png",
+    "static/media/DSC_0201.JPG": "/static/media/DSC_0201.da65b68915de0b34e501.JPG",
+    "static/media/Watchd.png": "/static/media/Watchd.435c1d6889970dbfecd7.png",
+    "static/media/home-background.jpg": "/static/media/home-background.93670f49eef73a568a6e.jpg",
+    "static/media/WeatherMe.png": "/static/media/WeatherMe.276524324284d49d94fd.png",
+    "static/media/2D Arcade.png": "/static/media/2D Arcade.bd104c90d42e45a9b0c6.png",
+    "static/media/Akshat Jawne Resume .pdf": "/static/media/Akshat Jawne Resume .a5f222b5d0a139dc2fdb.pdf",
+    "index.html": "/index.html",
+    "main.60b5f1dc.css.map": "/static/css/main.60b5f1dc.css.map",
+    "main.d6d1cae1.js.map": "/static/js/main.d6d1cae1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60b5f1dc.css",
+    "static/js/main.d6d1cae1.js"
+  ]
+}
