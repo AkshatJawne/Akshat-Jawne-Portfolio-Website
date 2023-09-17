@@ -1,5 +1,4 @@
 import React from 'react';
-// import placeHolder from "../assets/placeholder-image.png";
 import watchd from "../assets/Watchd.png";
 import weatherMe from "../assets/WeatherMe.png";
 import website from "../assets/Website.png";
@@ -57,7 +56,7 @@ const Projects = () => {
                             </a>
                         ))}
             </div>        
-      </div> 
+        </div> 
     )
   }
   

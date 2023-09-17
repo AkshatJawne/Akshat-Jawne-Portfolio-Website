@@ -5,18 +5,28 @@ import {BsArrowDownCircle} from "react-icons/bs";
 import Navbar from './Navbar';
 
 const Home = () => {
+  const style= {
+  container: "bg-cover h-3/4",
+  about: "py-[15%] px-[31%] items-center justify-center",
+  intro: "text-4xl text-white font-extrabold text-center",
+  name: "text-7xl animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-[#ECECEC] pr-5 text-white",
+  iconcontainer: "flex flex-row mt-[2%]",
+}
   return (
     <div name = "Home">
         <Navbar />
-            <div className='flex ml-28 w-10/12 h-1/3 items-center justify-center'>
-                <img src = {homeImage} className = "relative px-1.5"/>
-                <h1 className = "sm:w-100 text-white text-6xl font-bold absolute text-center">Computer Engineering Student @ <br></br>University of Waterloo</h1>
-                <div className = "absolute flex pt-80 text-white cursor-pointer">
+             <div id="Home" className={style.container} style={{ backgroundImage: `url(${homeImage})`}}>
+               <div className={style.about}>
+                <h4 className={style.intro}>Systems Software Developer @ Ford, Computer Engineering @ The University of Waterloo</h4>
+            <div className={style.iconcontainer}>
+              <div className = "absolute flex pt-80 text-white cursor-pointer z-20">
                     <Link to ={"About"} smooth duration = {500}>
                         <BsArrowDownCircle size={50} />
                     </Link>
                 </div>
-             </div>
+            </div>
+        </div>
+    </div>
     </div>
   )
 }
