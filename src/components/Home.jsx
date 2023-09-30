@@ -23,7 +23,7 @@ const Home = () => {
                     <Link to ={"About"} smooth duration = {500}>
                         <BsArrowDownCircle size={50} />
                     </Link>
-                </div>
+              </div>
             </div>
         </div>
     </div>

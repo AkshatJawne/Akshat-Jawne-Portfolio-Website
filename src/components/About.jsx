@@ -9,7 +9,7 @@ const About = () => {
                 <h2 className = "text-4xl font-bold text-blue-700"> About Me :)</h2>
                 <p className='pb-8 py-4 text-xl ml-1'>
                     Welcome to my website! I’m Akshat, a Computer Engineering Student at the University of Waterloo. I am currently 
-                    working at Ford as a Systems Software Developer, and previously worked as a Software Developerat Deep Trekker, 
+                    working at Ford as a Systems Software Developer, and previously worked as a Software Developer at Deep Trekker, 
                     an industry-leading underwater robotics company. The boundless nature of technology has fascinated me since I could 
                     string letters together; currently, I am interested in Full Stack Development, Machine Learning, and Financial Technology, 
                     but welcome any opportunities that enable me to channel my technological prowess to create meaningful change. In my free time, 
