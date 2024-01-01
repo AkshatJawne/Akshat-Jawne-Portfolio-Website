@@ -13,10 +13,6 @@ const Navbar = () => {
             link: "Projects"
         },
         {
-            id: 3, 
-            link: "Resume"
-        },
-        {
             id: 4, 
             link: "Contact"
         }

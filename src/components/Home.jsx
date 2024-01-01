@@ -17,7 +17,7 @@ const Home = () => {
         <Navbar />
              <div id="Home" className={style.container} style={{ backgroundImage: `url(${homeImage})`}}>
                <div className={style.about}>
-                <h4 className={style.intro}>Systems Software Developer @ Ford, Computer Engineering @ The University of Waterloo</h4>
+                <h4 className={style.intro}>Computer Engineering @ The University of Waterloo</h4>
             <div className={style.iconcontainer}>
               <div className = "absolute flex pt-80 text-white cursor-pointer z-20">
                     <Link to ={"About"} smooth duration = {500}>
