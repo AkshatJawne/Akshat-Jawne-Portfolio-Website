@@ -2,7 +2,7 @@ import React from 'react';
 import { ReactTyped } from 'react-typed';
 
 const Home = () => (
-	<div className='container mx-auto my-10 pt-40 text-center'>
+	<div className='container mx-auto my-10 pt-32 text-center'>
 		<h1 className='text-4xl font-bold mb-4'>
 			<ReactTyped
 				strings={[
