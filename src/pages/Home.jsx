@@ -15,7 +15,7 @@ const Home = () => (
 			/>
 		</h1>
 		<p className='text-gray-700 mt-4'>
-			I'm currently seeking Winter 2025 internship opportunities to apply my skills in real-world projects.
+			I'm currently seeking Winter 2025 internship opportunities to apply my skills in meaningful contexts.
 			Explore my experiences and projects below.
 		</p>
 	</div>
