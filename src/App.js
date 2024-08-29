@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -7,15 +6,19 @@ import Experiences from './pages/Experiences';
 import Projects from './pages/Projects';
 
 const App = () => (
-	<Router>
+	<div>
 		<Header />
-		<Routes>
-			<Route path='/' element={<Home />} />
-			<Route path='/experiences' element={<Experiences />} />
-			<Route path='/projects' element={<Projects />} />
-		</Routes>
+		<div id='home'>
+			<Home />
+		</div>
+		<div id='experiences' className='mt-20'>
+			<Experiences />
+		</div>
+		<div id='projects' className='mt-20'>
+			<Projects />
+		</div>
 		<Footer />
-	</Router>
+	</div>
 );
 
 export default App;

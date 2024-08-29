@@ -34,6 +34,7 @@ const Footer = () => (
 				</a>
 			</p>
 		</div> */}
+		<div>test</div>
 	</footer>
 );
 
