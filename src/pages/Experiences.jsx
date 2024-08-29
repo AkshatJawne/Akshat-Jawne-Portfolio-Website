@@ -1,13 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Experience from '../components/Experience';
+import deephavenLogo from '../assets/coop/deephaven.png';
+import fordLogo from '../assets/coop/ford.jpg';
+import dtLogo from '../assets/coop/dt.jpg';
 
 const experiences = [
 	{
 		title: 'Software Engineer',
 		company: 'Deephaven Data Labs',
 		description: 'Stack: Python, Java, TypeScript, React.js, Docker',
-		image: '../assets/coop/deephaven.png',
+		image: deephavenLogo,
 		dateRange: 'May 2024 - Aug 2024',
 		location: 'New York, NY',
 		link: 'https://deephaven.io/',
@@ -16,7 +19,7 @@ const experiences = [
 		title: 'Systems Software Developer',
 		company: 'Ford Motor Company',
 		description: 'Stack: TypeScript, Python, Next.js, React.js, SQL',
-		image: '../assets/coop/ford.jpg',
+		image: fordLogo,
 		dateRange: 'Sept 2023 - Dec 2023',
 		location: 'Oakville, ON',
 		link: 'https://www.ford.com/',
@@ -25,7 +28,7 @@ const experiences = [
 		title: 'Software Developer',
 		company: 'Deep Trekker',
 		description: 'Stack: JavaScript, Node.js, React.js, Tailwind CSS',
-		image: '../assets/coop/dt.jpeg',
+		image: dtLogo,
 		dateRange: 'Jan 2023 - Apr 2023',
 		location: 'Kitchener, ON',
 		link: 'https://www.deeptrekker.com/',

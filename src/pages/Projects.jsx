@@ -1,12 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import watchd from '../assets/Watchd.png';
-import connecta from '../assets/Connecta.png';
-import arimaStockPrediction from '../assets/stockPrediction.png';
-import letsGoCustomers from '../assets/letsgocustomers.png';
-import cruze from '../assets/cruze.png';
-import airbnbDataAnalysis from '../assets/airbnbDataAnalysis.png';
-import bGeneratify from '../assets/B-Generatify.png';
 import Project from '../components/Project';
 
 const allProjects = [
@@ -15,7 +8,6 @@ const allProjects = [
 		title: 'B-Generatify',
 		description: 'An AI text generational tool that outputs custom blogs based on inputted Youtube video links.',
 		technologies: 'Python, JavaScript, Django, OpenAI API, AssemblyAI',
-		src: bGeneratify,
 		link: 'https://github.com/AkshatJawne/B-Generatify',
 	},
 	{
@@ -23,7 +15,6 @@ const allProjects = [
 		title: 'jLang',
 		description: 'A compiler (lexer, parser, and assembler) for a turing-complete programming language, jLang.',
 		technologies: 'C, C++',
-		src: bGeneratify,
 		link: 'https://github.com/AkshatJawne/jLang',
 	},
 	{
@@ -32,16 +23,14 @@ const allProjects = [
 		description:
 			'A customer management platform with CRUD functionality, featuring server and serverless archtiectures.',
 		technologies: 'Go, AWS Lambda, AWS DynamoDB, GraphQL, MongoDB',
-		src: letsGoCustomers,
 		link: 'https://github.com/AkshatJawne/LetsGOCustomers',
 	},
 	{
 		id: 4,
 		title: 'Connecta',
 		description:
-			'A responsive full-stack social media application with post sharing, liking, and commenting. Built with MERN Stack, featuring a custom REST API.',
+			'A responsive full-stack social media application with post sharing, liking, and commenting, featuring a custom REST API.',
 		technologies: 'JavaScript, React.js, Express.js, Node.js, MongoDB, Chakra UI',
-		src: connecta,
 		link: 'https://github.com/AkshatJawne/Connecta',
 	},
 	{
@@ -49,7 +38,6 @@ const allProjects = [
 		title: 'Flight Fare Prediction Pipeline',
 		description: 'A machine learning pipeline capable of predicting flight prices with 99.5% accuracy.',
 		technologies: 'Python',
-		src: connecta,
 		link: 'https://github.com/AkshatJawne/FlightFarePrediction',
 	},
 	{
@@ -58,7 +46,6 @@ const allProjects = [
 		description:
 			'A full-stack ride-share, Uber-like platform with phone text verification, dynamic routing, and websockets.',
 		technologies: 'PHP, JavaScript, Laravel, Vue.js',
-		src: cruze,
 		link: 'https://github.com/AkshatJawne/Cruze',
 	},
 	{
@@ -67,7 +54,6 @@ const allProjects = [
 		description:
 			'An Autoregressive Integrated Moving Average (ARIMA) stock  pricing model leveraging pandas, numpy, scikit-learn, and statsmodels to forecast prices of stocks with nearly 85% accuracy.',
 		technologies: 'Python',
-		src: arimaStockPrediction,
 		link: 'https://github.com/AkshatJawne/ARIMA-Stock-Prediction-Model',
 	},
 	{
@@ -75,7 +61,6 @@ const allProjects = [
 		title: 'AirBnb Data Exploration',
 		description: 'Data cleaning and analysis on a dataset of over 200,000 NYC Airbnb Properties.',
 		technologies: 'SQL, PostgreSQL',
-		src: airbnbDataAnalysis,
 		link: 'https://github.com/AkshatJawne/AirbnbDataExploration',
 	},
 	{
@@ -84,7 +69,6 @@ const allProjects = [
 		description:
 			'An interactive dashboard displaying trending movies worldwide in various categories, through real-time data retrieved from The Movie Database API.',
 		technologies: 'JavaScript, Next.js, React.js, Tailwind CSS',
-		src: watchd,
 		link: 'https://watchd.vercel.app/',
 	},
 ];
