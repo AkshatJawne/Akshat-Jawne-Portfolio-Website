@@ -1,33 +1,40 @@
-import React from 'react'
-import {MdMail} from "react-icons/md";
-import {FaGithubSquare} from "react-icons/fa";
-import {IoLogoLinkedin} from "react-icons/io";
-import {BsArrowUpCircle} from "react-icons/bs";
-import {Link} from "react-scroll";
+import React from 'react';
+// import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+// import { faEnvelope } from '@fontawesome/free-solid-svg-icons';
+// import { faGithub, faLinkedin } from '@fontawesome/free-brands-svg-icons';
 
-const Footer = () => {
+const Footer = () => (
+	<footer className='bg-gray-900 text-white py-4 mt-10'>
+		{/* <div className='container mx-auto text-center'>
+			<div className='flex justify-center space-x-6 mb-4'>
+				<a href='mailto:ajawne@uwaterloo.ca' className='text-white hover:text-gray-400'>
+					<FontAwesomeIcon icon={faEnvelope} size='2x' />
+				</a>
+				<a
+					href='https://github.com/AkshatJawne'
+					target='_blank'
+					rel='noopener noreferrer'
+					className='text-white hover:text-gray-400'
+				>
+					<FontAwesomeIcon icon={faGithub} size='2x' />
+				</a>
+				<a
+					href='https://www.linkedin.com/in/akshatjawne/'
+					target='_blank'
+					rel='noopener noreferrer'
+					className='text-white hover:text-gray-400'
+				>
+					<FontAwesomeIcon icon={faLinkedin} size='2x' />
+				</a>
+			</div>
+			<p>
+				© 2024 Akshat Jawne |{' '}
+				<a href='mailto:ajawne@uwaterloo.ca' className='text-blue-500'>
+					ajawne@uwaterloo.ca
+				</a>
+			</p>
+		</div> */}
+	</footer>
+);
 
-
-    return (
-        <div className = "flex flex-wrap container items-center justify-between p-6 w-full mx-auto">
-            <div className = "text-xl mx-0">
-                <h1>Copyright © 2022 Akshat Jawne</h1>
-            </div>
-            <div>
-                <ul className = "flex flex-col mt-4 md:flex-row md:space-x-9 md:mt-0 md:text-md md:font-medium mx-4 cursor-pointer">
-                    <li className = "text-blue-700">
-                        <a href = "https://www.linkedin.com/in/akshatjawne/"><IoLogoLinkedin size = {50}></IoLogoLinkedin></a>
-                    </li>
-                    <li className = "text-blue-700">
-                        <a href = "mailto:akshatjawne@gmail.com"><MdMail size = {50}></MdMail></a>
-                    </li>
-                    <li className = "text-blue-700 mt-1">
-                        <a href="https://github.com/AkshatJawne"><FaGithubSquare size = {41}></FaGithubSquare></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-  )
-}
-
-export default Footer
+export default Footer;
