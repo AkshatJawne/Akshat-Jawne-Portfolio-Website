@@ -21,7 +21,7 @@ const allProjects = [
 		id: 3,
 		title: 'LetsGOCustomers',
 		description:
-			'A customer management platform with CRUD functionality, featuring server and serverless archtiectures.',
+			'A customer management platform with CRUD functionality, featuring server and serverless architectures.',
 		technologies: 'Go, AWS Lambda, AWS DynamoDB, GraphQL, MongoDB',
 		link: 'https://github.com/AkshatJawne/LetsGOCustomers',
 	},
@@ -58,7 +58,7 @@ const allProjects = [
 	},
 	{
 		id: 8,
-		title: 'AirBnb Data Exploration',
+		title: 'Airbnb Data Exploration',
 		description: 'Data cleaning and analysis on a dataset of over 200,000 NYC Airbnb Properties.',
 		technologies: 'SQL, PostgreSQL',
 		link: 'https://github.com/AkshatJawne/AirbnbDataExploration',
