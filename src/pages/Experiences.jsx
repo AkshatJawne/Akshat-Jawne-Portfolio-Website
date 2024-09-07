@@ -12,7 +12,7 @@ const experiences = [
 		description: 'Stack: Python, Java, TypeScript, React.js, Docker',
 		image: deephavenLogo,
 		dateRange: 'May 2024 - Aug 2024',
-		location: 'New York, NY',
+		location: 'New York, NY & Minneapolis, MN',
 		link: 'https://deephaven.io/',
 	},
 	{
