@@ -3,6 +3,20 @@ import { motion } from 'framer-motion';
 import Project from '../components/Project';
 
 const allProjects = [
+    {
+		id: -2,
+		title: 'StormyDB',
+		description: 'A high-performance in-memory key-value database built in Go',
+		technologies: 'Go',
+		link: 'https://github.com/AkshatJawne/StormyDB',
+	},
+    {
+		id: -1,
+		title: 'FuzionFind',
+		description: 'An AI file search utility that combines CUDA-accelerated fuzzy string matching with neural network ranking to deliver lightning-fast, highly accurate file search results.',
+		technologies: 'Python, CUDA',
+		link: 'https://github.com/AkshatJawne/FuzionFind',
+	},
 	{
 		id: 1,
 		title: 'B-Generatify',

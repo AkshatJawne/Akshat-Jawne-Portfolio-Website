@@ -7,7 +7,7 @@ const Home = () => (
 			<ReactTyped
 				strings={[
 					'Computer Engineering student at UWaterloo',
-					'Previous SWE @ Deephaven Data Labs, Ford, Deep Trekker',
+					'Current SWE @ Vivid Seats; Previous SWE @ Deephaven Data Labs, Ford, Deep Trekker',
 				]}
 				typeSpeed={40}
 				backSpeed={40}
@@ -15,7 +15,7 @@ const Home = () => (
 			/>
 		</h1>
 		<p className='text-gray-700 mt-4'>
-			I'm currently seeking Winter 2025 internship opportunities to apply my skills in meaningful contexts.
+			I'm currently seeking 2025 internship opportunities to apply my skills in meaningful contexts.
 			Explore my experiences and projects below.
 		</p>
 	</div>

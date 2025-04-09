@@ -4,15 +4,25 @@ import Experience from '../components/Experience';
 import deephavenLogo from '../assets/coop/deephaven.png';
 import fordLogo from '../assets/coop/ford.jpg';
 import dtLogo from '../assets/coop/dt.jpg';
+import vividSeatsLogo from "../assets/coop/vividseats.png"
 
 const experiences = [
+    {
+		title: 'Software Engineer',
+		company: 'Vivid Seats',
+		description: 'Stack: Node.js, TypeScript, Java, React.js, AWS',
+		image: vividSeatsLogo,
+		dateRange: 'Jan 2025 - Present',
+		location: 'Chicago, IL',
+		link: 'https://www.vividseats.com/',
+	},
 	{
 		title: 'Software Engineer',
 		company: 'Deephaven Data Labs',
 		description: 'Stack: Python, Java, TypeScript, React.js, Docker',
 		image: deephavenLogo,
 		dateRange: 'May 2024 - Aug 2024',
-		location: 'New York, NY & Minneapolis, MN',
+		location: 'Minneapolis, MN',
 		link: 'https://deephaven.io/',
 	},
 	{
@@ -21,7 +31,7 @@ const experiences = [
 		description: 'Stack: TypeScript, Python, Next.js, React.js, SQL',
 		image: fordLogo,
 		dateRange: 'Sept 2023 - Dec 2023',
-		location: 'Oakville, ON',
+		location: 'Toronto, ON',
 		link: 'https://www.ford.com/',
 	},
 	{

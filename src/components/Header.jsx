@@ -22,7 +22,7 @@ const Header = () => {
 
 	// Attach event listener on component mount and cleanup on unmount
 	useEffect(() => {
-		handleResize(); // Set the initial state
+		handleResize();
 		window.addEventListener('resize', handleResize);
 		return () => window.removeEventListener('resize', handleResize);
 	}, []);
